@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<div>
+  <Navbar
+    color="light"
+    expand="md"
+    light={true}
+    tag="nav"
+  >
+    <NavbarBrand
+      href="/"
+      tag="a"
+    >
+      Spendify
+    </NavbarBrand>
+    <Nav
+      className="navbar-nav ml-auto"
+      navbar={true}
+      tag="ul"
+      vertical={false}
+    >
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="nav-link"
+          to="/dashboard"
+        >
+          Go home
+        </NavLink>
+      </NavItem>
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="nav-link"
+          to="/create"
+        >
+          Create an Expense
+        </NavLink>
+      </NavItem>
+      <NavItem
+        tag="li"
+      >
+        <button
+          className="btn btn-info"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </NavItem>
+    </Nav>
+  </Navbar>
+</div>
+`;
